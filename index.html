@@ -1,30 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF=8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Roman numeral converter</title>
+    <title>Roman Numeral Converter</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Roman numeral converter</h1>
-    <section class="input-container">
-      <label for="number">Enter a decimal number:</label>
-      <input
-        value=""
-        type="number"
-        name="decimal number input"
-        id="number"
-        class="number-input"
-      />
+    <div class="container">
+      <h1>Roman Numeral Converter</h1>
+      <input type="number" id="number" placeholder="Enter a number" />
       <button id="convert-btn">Convert</button>
-    </section>
-    <section class="output-container">
-      <output id="output" for="number"></output>
-      <h2>Output</h2>
-      <div id="output"></div>
-    </section>
+      <p id="output"></p>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

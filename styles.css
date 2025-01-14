@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', serif; /* Classic Roman font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9d9b8;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fef4e1;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border: 3px solid #d4af37; /* Gold border for a luxurious Roman touch */
+    width: 300px;
+  }
+  
+  h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 32px;
+    color: #8b5d33;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  input {
+    padding: 12px;
+    width: 220px;
+    margin-bottom: 15px;
+    border: 2px solid #8b5d33;
+    border-radius: 8px;
+    background-color: #fdf6e3; 
+    font-size: 16px;
+    font-family: 'Times New Roman', serif;
+    color: #5a4e3b;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #d4af37; 
+    background-color: #fffbe6; 
+  }
+  
+  
+  button {
+    padding: 12px 25px;
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #b38b2e; /* Darker gold when hovered */
+  }
+  
+  button:active {
+    background-color: #9e7a2e; /* Even darker gold on click */
+  }
+  
+  
+  #output {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #4e3b2e;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+  }
+  
+  #output {
+    background: #f1e3c4;
+    border: 2px solid #d4af37; 
+    padding: 10px;
+    border-radius: 5px;
+  }
